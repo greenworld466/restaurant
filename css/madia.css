@@ -1,0 +1,118 @@
+
+/*Large devices*/
+@media (max-width: 1199.98px) { ... }
+
+/* Medium devices */
+@media (max-width: 991.98px) { 
+.navbar-toggler i{
+        color: #fff;
+        font-size: 30px;
+    }
+    .navbar-nav {
+	text-align: center;
+	padding: 10px 0;
+	background: #312b2b;
+}
+    .navbar-expand-lg .navbar-nav .nav-link {
+	padding-bottom: 5px;
+	font-size: 19px;
+}
+    #banner {
+	padding-top: 220px;
+	padding-bottom: 120px;
+}
+   .banner-text h3 {
+	font-size: 50px;
+}
+  .form-text h3 {
+	padding-top: 20px;
+}
+    .fooder-item h3 {
+	padding-top: 20px;
+}
+    
+}
+
+/*Small devices */
+@media (max-width: 767.98px) { 
+.navbar-toggler i{
+        color: #fff;
+        font-size: 30px;
+    }
+    .navbar-nav {
+	text-align: center;
+	padding: 10px 0;
+	background: #312b2b;
+}
+     .navbar-expand-lg .navbar-nav .nav-link {
+	padding-bottom: 5px;
+	font-size: 18px;
+}
+    #banner {
+	padding-top: 220px;
+	padding-bottom: 120px;
+}
+   .banner-text h3 {
+	font-size: 45px;
+}
+    .revews-text i {
+	left: 9%;
+	top: 23%;
+}
+    .form-text h3 {
+	padding-top: 20px;
+}
+    .fooder-item h3 {
+	padding-top: 20px;
+}
+}
+
+/*Extra small devices */
+@media (max-width: 575.98px) { 
+.navbar-toggler i{
+        color: #fff;
+        font-size: 30px;
+    }
+    .navbar-nav {
+	text-align: center;
+	padding: 10px 0;
+	background: #312b2b;
+}
+     .navbar-expand-lg .navbar-nav .nav-link {
+	padding-bottom: 5px;
+	font-size: 18px;
+}
+    #banner {
+	padding-top: 220px;
+	padding-bottom: 120px;
+}
+    .banner-text h3 {
+	font-size: 60px;
+}
+    .banner-btn a {
+	padding: 10px 15px;
+	font-size: 14px;
+        margin-left: 30%;
+}
+    .ingredients-text h3 {
+	font-size: 17px;
+}
+    .ingredients-text p {
+	font-size: 13px;
+}
+    .revews-text p {
+	font-size: 20px;
+}
+    .revews-text i {
+	left: 8%;
+	top: 18%;
+}
+    .book-form button {
+	margin-left: 15%;
+}
+    .fooder-item h3 {
+	padding-top: 20px;
+}
+
+}
+

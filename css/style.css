@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+img{
+    height: auto;
+    max-width: 100%;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+    font-size: 21px;
+    font-weight: 700;
+    font-family: 'Gentium Book Basic', serif;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding: 0 0 0 45px;
+}
+#banner{
+    padding-top: 240px;
+    padding-bottom: 240px;
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner-text h3{
+    color: #fff;
+    font-size: 90px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+    padding-bottom: 30px;
+}
+.banner-btn a{
+    display: inline-block;
+    padding: 20px 50px;
+    background: rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    border: 1px solid #000;
+    margin-top: 30px;
+    transition: all linear .3s;
+}
+.banner-btn a:hover{
+    background: rgba(255, 255, 255, 0.28);
+    border: 1px solid #fff;
+}
+
+
+/*Add custom cursor so it auto inherits font styles*/
+.typed::after {
+	content: '|';
+	display: inline;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+/*Removes cursor that comes with typed.js*/
+.typed-cursor{
+   opacity: 0;
+	display: none;
+}
+#food{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url(../images/foodbg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.food-text h3{
+    color: #cc9900;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+    padding-bottom: 15px;
+}
+.food-text p{
+    color: #4c4c4c;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    line-height: 24px;
+    padding-bottom: 45px;
+    padding-top: 25px;
+}
+#ingredients{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url(../images/ingredients.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ingredients-text{
+    padding: 80px 75px 70px 70px;
+    background: rgba(0, 0, 0, 0.67);
+}
+.ingredients-text h3{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+    padding-bottom: 15px;
+}
+.ingredients-text p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    line-height: 24px;
+    padding-bottom: 65px;
+    padding-top: 25px;
+}
+.ingredients-pic img{
+    width: 25%;
+    margin: 0 0 0 25px;
+}
+#menu{
+    padding-top: 100px;
+    padding-bottom: 40px;
+    background: url(../images/foodbg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.menu-item h3{
+    color: #cc9900;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+    padding-bottom: 15px;
+}
+.menu-text{
+    position: relative;
+}
+.menu-text h4{
+    color: #cc9900;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+    padding-bottom: 5px;
+    padding-top: 25px;
+    border-bottom: 1px solid #cc9900;
+}
+.menu-text p{
+    color: #4c4c4c;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    line-height: 24px;
+    padding-bottom: 35px;
+    padding-top: 10px;
+}
+.menu-text span {
+	right: 0;
+	position: absolute;
+}
+#revews{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url(../images/revews.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.revews-text{
+    padding: 80px 70px 100px 70px;
+    background: rgba(0, 0, 0, 0.7);
+    position: relative;
+}
+.revews-text h3{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+    padding-bottom: 15px;
+}
+.revews-text i{
+    font-size: 30px;
+    color: #f2f4f4;
+    position: absolute;
+    left: 4%;
+    top: 29%;
+}
+.revews-text p{
+    color: #dde0df;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Gentium Book Basic', serif;
+    line-height: 45px;
+    padding-top: 15px;
+    padding-bottom: 35px;
+}
+.revews-text h4{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+#form{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url(../images/foodbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.form-text h3{
+    color: #cc9900;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+    padding-bottom: 15px;
+}
+.form-text p{
+     color: #4c4c4c;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    line-height: 24px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+.form-control{
+    font-size: 16px;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    transition: all linear .3s;
+}
+.book-form label{
+    color: #c9a131;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.book-form button{
+    margin-top: 30px;
+    margin-left: 25%;
+    border: none;
+    padding: 10px 60px;
+    background: #c9a131;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+.form-control:hover{
+    border: 1px solid #c9a131;
+}
+#fooder{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #191919;
+}
+.fooder-item h3{
+    color: #fefefe;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+    padding-bottom: 10px;
+}
+.fooder-item p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    padding-top: 10px;
+}
+.fooder-item span{
+    font-weight: 700;
+}
+.fooder-icon{
+    margin-top: 40px;
+}
+.preloder{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 9999;
+    background: #000;
+}
+.load{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.back-top{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 9999;
+}
+.back-top i{
+    color: #15c451;
+    font-size: 50px;
+}
+/*
+font-family: 'Gentium Book Basic', serif;
+font-family: 'Yeseva One', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+
+
